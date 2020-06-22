@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from './Header'
+import Playground from './Playground'
 
 function App() {
 	return (
 		<div> 
-			<Header buttonText="Click Me!" age={420}/>
+			<Playground buttonText="Click Me!" age={420}/>
 		</div>
 	);
 }
